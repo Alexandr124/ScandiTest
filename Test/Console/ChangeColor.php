@@ -89,7 +89,7 @@ class ChangeColor extends Command
      */
     protected function configure()
     {
-        $this->setName('change:color');
+        $this->setName('scandiweb:color-change');
         $this->setDescription('Changing buttons color');
         $this->addOption(
             self::COLOR,
